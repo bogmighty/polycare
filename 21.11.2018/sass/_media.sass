@@ -1,0 +1,198 @@
+@import "vars"
+
+
+@media (max-width:480px)
+  h2
+    font-size: 24px
+    margin-bottom: 30px
+    margin-top: 30px
+  .header
+  	.top-nav
+  		&_btn
+  			display: block
+  		&_menu
+  		  flex-direction: column
+      display: none
+      &__active
+        display: flex
+        margin-bottom: 0
+      li
+        line-height: 2
+  .header
+    h1
+      text-align: center
+      font-size: 29px
+      margin-top: 25px
+    p
+      font-size: 16px
+    .banner
+      a
+        padding: 7px 15px 7px 15px
+        color: #ffffff
+        font-weight: bold
+        font-style: normal
+        font-size: 16px
+        background: #e8a915
+        display: block
+        margin: 0 auto
+        max-width: 200px
+      img
+        display: block
+        margin: 0 auto
+        max-width: 300px
+      .benefits
+    		h3
+    			display: none
+    		.item
+    			display: none
+    			i
+    				display: none
+  .payment
+    .item
+      display: block
+      margin: 0 auto
+      margin-top: 60px
+      &:nth-child(1)
+        margin-top: 0
+      .desk
+        &::after
+          background: url(../img/arrowdown.png) no-repeat center
+          margin: 0
+          right: 0
+          left: 0
+          margin: 0 auto
+          top: 240px
+
+  .contact
+    .contact-info
+      h5
+        font-size: 18px
+      i
+        margin-top: 15px
+        font-size: 36px
+
+@media (min-width:481px) and (max-width:767px)
+  h2
+    font-size: 24px
+    margin-bottom: 30px
+    margin-top: 30px
+  .header
+  	.top-nav
+  		&_btn
+  			display: block
+  		&_menu
+  		  flex-direction: column
+      display: none
+      &__active
+        display: flex
+        margin-bottom: 0
+      li
+        line-height: 2
+  .header
+    h1
+      text-align: center
+      font-size: 36px
+      margin-top: 25px
+    p
+      font-size: 18px
+      text-align: center
+    .banner
+      a
+        padding: 7px 15px 7px 15px
+        color: #ffffff
+        font-weight: bold
+        font-style: normal
+        font-size: 16px
+        background: #e8a915
+        display: block
+        margin: 0 auto
+        max-width: 180px
+      img
+        display: block
+        margin: 0 auto
+        max-width: 300px
+      .benefits
+    		h3
+    			display: none
+    		.item
+    			display: none
+    			i
+    				display: none
+  .payment
+    i
+      -webkit-transform: rotate(-270deg); //Chrome, Safari
+      -moz-transform: rotate(-270deg); //Firefox
+      -o-transform: rotate(-270deg); //Opera
+      -ms-transform: rotate(-270deg); //IE
+      transform: rotate(-270deg); //браузеры без префексов
+      margin-top: 10px
+      margin-bottom: 10PX
+      margin-left: 48%
+
+  .contact
+    .contact-info
+      h5
+        font-size: 18px
+      i
+        margin-top: 15px
+        font-size: 36px
+
+@media (min-width:768px) and (max-width:991px)
+  h2
+    font-size: 24px
+    margin-bottom: 30px
+    margin-top: 30px
+  .header
+  	.top-nav
+  		&_btn
+  			display: none
+  		&_menu
+      li
+        margin-right: 20px
+  .header
+    h1
+      text-align: center
+      font-size: 28px
+      margin-top: 25px
+    p
+      font-size: 16px
+      text-align: center
+    .banner
+      a
+        padding: 7px 15px 7px 15px
+        color: #ffffff
+        font-weight: bold
+        font-style: normal
+        font-size: 16px
+        background: #e8a915
+        display: block
+        margin: 0 auto
+        max-width: 180px
+      img
+        display: block
+        margin: 0 auto
+        max-width: 300px
+    .benefits
+      margin-top: 20px
+      h3
+        font-size: 14px
+      .item
+        .fas
+          font-size: 18px
+          color: #bdc3c7
+  .payment
+    .item
+      .desk
+        display: block
+        margin: 0 auto
+        width: 345px
+    i
+      display: none
+      -webkit-transform: rotate(-270deg); //Chrome, Safari
+      -moz-transform: rotate(-270deg); //Firefox
+      -o-transform: rotate(-270deg); //Opera
+      -ms-transform: rotate(-270deg); //IE
+      transform: rotate(-270deg); //браузеры без префексов
+      margin-top: 10px
+      margin-bottom: 10PX
+      margin-left: 48%

@@ -1,0 +1,423 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+@import "colors"
+
+html
+	font-size: 14px
+
+body
+	background-color: $bg-color
+	font-family: 'Roboto', sans-serif
+h2
+	text-align: center
+	font-size: 36px
+	color: #074f66
+	font-weight: 600
+	margin-bottom: 60px
+	margin-top: 120px
+
+
+
+.header
+	background: url(../img/banner.jpg)
+	background-position: center
+	background-repeat: no-repeat
+	overflow: hidden
+	-webkit-background-size: cover
+	background-size: cover
+	box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.73) inset
+	.top-nav
+
+		.logo
+			font-size: 28px
+		  margin-top: 15px
+			color: #fff
+
+			.highlight
+				font-weight: 800
+
+		&_btn
+			display: none
+			width: 30px
+			height: 30px
+			background-color: gray
+			color: white
+			border: none
+			font-size: 18px
+			position: absolute
+			right: 15px
+			top: -35px
+			&:hover
+				cursor: pointer
+		&_menu
+			list-style: none
+			padding: 0
+			display: flex
+			margin-top: 20px
+
+
+			li
+				margin-right: 45px
+				a
+					text-decoration: none
+					color: rgba(255, 255, 255, 0.65)
+					font-weight: 700
+					&:hover
+						color: white
+
+	h1
+		font-size: 45px
+		color: #FF9800
+		text-align: center
+	p
+		font-size: 18px
+		color: white
+		line-height: 2
+		font-weight: 600
+		padding-left: 25px
+	.price
+		margin-top: -15px
+		font-size: 18px
+		color: white
+		line-height: 2
+		font-weight: 600
+
+
+	.banner
+		a
+			cursor: pointer
+			text-decoration: none
+			display: inline-block
+			text-align: center
+			padding: 10px 15px
+			color: #ffff
+			font-weight: bold
+			font-style: normal
+			font-size: 20px
+			background: #e8a915
+			margin-left: 25%
+			border-radius: 5px
+
+
+
+	.benefits
+		margin-top: 15px
+		margin-bottom: 10px
+		h3
+			color: #9E9E9E
+			font-size: 18px
+			padding-right: 10px
+		.item
+			display: flex
+			padding-left: 40px
+			i
+				font-size: 24px
+				padding-right: 10px
+				color: #fff
+
+
+
+.about
+	.item
+		display: flex
+
+		h3
+			padding-left: 20
+
+		.icon-holder
+			padding-right: 12px
+
+			.fa
+	  		font-size: 24px
+	  		color: #074f66
+
+		.content
+
+			.sub-title
+	  		margin-top: 0
+	  		color: #074f66
+	  		font-size: 18px
+
+
+.forwhom
+	.min-tittle
+		text-align: center
+		color: #757575
+		font-size: 18px
+	.item
+		display: flex
+		.fas
+			padding-right: 10px
+	.desc
+		color: #757575
+		font-size: 18px
+	img
+		max-width: 100%
+		max-height: 100%
+
+.feedbacks
+	display: none
+	background: url(../img/feedbacks1.jpg)
+	background-position: center
+	background-repeat: no-repeat
+	overflow: hidden
+	-webkit-background-size: cover
+	background-size: cover
+	h2
+		color: white
+
+	.block-items
+		cursor: default
+		margin-bottom: 60px
+	.item
+		.inner-testimonial
+			text-align: center
+			background-color: transparent
+			h3
+				padding: 10px 0
+				font-size: 20px
+				font-family: "Roboto", sans-serif
+				font-weight: 900
+				color: orange
+			.text-testimonial
+				padding: 10px 0
+				font-size: 20px
+				font-family: "Roboto", sans-serif
+				font-weight: 300
+				line-height: 25px
+				color: #fff
+
+			.full-opacity
+				opacity: 1
+				-webkit-transition: all 0.3s linear
+				transition: all 0.3s linear
+
+			img
+				max-width: 128px
+				margin: 0 auto 15px
+				opacity: 0
+				-webkit-transition: all 1.3s
+
+				&:active
+					-webkit-transition: all 1.3s linear
+	    		transition: all 1.3s linear
+
+.product
+	display: none
+	.wrapper
+		display: block
+		margin: auto
+		.img
+			img
+				max-height: 400px
+				max-width: 400px
+		.title
+			font-size: 24px
+			text-align: center
+			margin-top: -15px
+		.price
+			input
+				max-width: 40px
+				text-align: center
+
+		.button
+			button
+				display: block
+				margin: auto
+
+
+
+
+
+.instruction
+	margin-bottom: 120px
+	ol
+		font-size: 18px
+		margin: 30px 0
+
+		li
+			padding-top: 10px
+			color: #757575
+
+.payment
+	background: url(../img/deliveryimg1.jpg)
+	background-position: center
+	background-repeat: no-repeat
+	overflow: hidden
+	-webkit-background-size: cover
+	background-size: cover
+
+	i
+		font-size: 24px
+		color: #074f66
+
+	.item
+		.min-tittle
+			display: block
+			border: 1px solid black
+			margin-left: 27%
+			border-radius: 50%
+			position: relative
+			width: 100px
+			height: 100px
+			background: #f1f2f6
+			margin: 0 auto
+			margin-bottom: -50px
+			h3
+				font-size: 48px
+				text-align: center
+				padding-top: 12px
+				top: 50%
+				color: #074f66
+
+
+
+		.desk
+			font-size: 16px
+			font-weight: 600
+			border: 1px solid black
+			width: auto
+			height: 225px
+			text-align: center
+			padding-top: 60px
+			padding-left: 15px
+			padding-right: 15px
+
+
+			a
+				text-decoration: none
+			.button
+				a
+					cursor: pointer
+					text-decoration: none
+					display: inline-block
+					text-align: center
+					padding: 7px 15px
+					border-radius: 5px
+					color: #ffffff
+					font-weight: bold
+					font-style: normal
+					font-size: 16px
+					background: #e8a915
+					margin-top: -12px
+
+	.delinfo
+		margin-top: 60px
+		margin-bottom: 120px
+
+		h4
+			text-align: center
+			font-size: 16px
+			font-weight: 600
+			margin-bottom: 30px
+		p
+			font-size: 14px
+			text-align: center
+			color: gray
+			font-weight: 800
+
+
+
+
+
+.contact
+	.contact-info
+		margin-bottom: 20px
+		text-align: center
+
+		h5
+			font-size: 24px
+
+		i
+			font-size: 48px
+			display: inline-block
+			margin: 0
+			padding: 0
+			margin-bottom: 20px
+			color: #e8a915
+
+		p
+			margin-bottom: 0px
+			color: #000
+			font-size: 16px
+
+	form
+		input, textarea
+			width: 100%
+			padding: 10px 14px
+		  border-radius: 0
+		  box-shadow: none
+		  font-size: 12px
+			margin-top: 10px
+		button
+			cursor: pointer
+			text-decoration: none
+			display: inline-block
+			text-align: center
+			padding: 7px 15px 7px 15px
+			color: #ffffff
+			font-weight: bold
+			font-style: normal
+			font-size: 20px
+			background: #e8a915
+			margin-bottom: 20px
+			margin-top: 20px
+			border: 0
+			border-radius: 5px
+			&:hover
+				background: #13a456
+
+
+.footer
+	text-align: left
+	background: #181818
+	padding-top: 30px
+	font-size: 14px
+	margin-top: 30px
+	h3
+		color: #fff
+		font-weight: 600
+		font-size: 18px
+		padding-bottom: 10px
+		text-align: left
+	.tree
+		margin-bottom: 30px
+		ul
+			margin-left: 0
+		li
+			list-style: none
+		a
+			color: gray
+			text-decoration: none
+			&:hover
+				color: #fff
+	.contactsfooter
+		p
+			list-style: none
+			color: gray
+	.social
+		p
+			color: gray
+
+	.underfooter
+		background: #282828
+		text-align: center
+		color: #8e8e8e
+		padding-top: 5px
+		padding-bottom: 5px
+		a
+			color: #fff
+
+
+
+
+
+
+
+
+
+
+
+
+@import "media" // Always at the end
